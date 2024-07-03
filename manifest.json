@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "asset texture exporter",
+    "description": "exports asset textures",
+    "version": "1.0",
+    "author": "https://github.com/prrefer",
+    "permissions": [
+        "activeTab",
+        "downloads"
+    ],
+    "host_permissions": ["https://*/*"],
+    "action": {
+        "default_icon": "save.png"
+    },
+    "background": {
+        "service_worker": "index.js"
+    }
+  }
