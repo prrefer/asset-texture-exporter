@@ -25,7 +25,7 @@ chrome.action.onClicked.addListener(tab => {
 				if (!textureData) return
 			}
 
-			let textureId = textureData[1]
+			const textureId = textureData[1]
 			console.log(textureId)
 			downloadTexture(textureId)
 		})
